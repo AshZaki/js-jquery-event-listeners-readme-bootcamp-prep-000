@@ -21,3 +21,10 @@ function frameIt(){
 }
 
 
+function pressIt(){
+  $('input').on('keydown',function(key){
+    if (key.which =='g'){
+      alert('g was pressed');
+    }
+  });
+}
