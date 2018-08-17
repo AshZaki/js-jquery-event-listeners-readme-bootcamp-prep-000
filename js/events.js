@@ -12,3 +12,10 @@ function getIt(){
     alert('Hey!')
   })
 }
+
+
+function frameIt(){
+  $('tasty.img').on('load',function(){
+    
+  })
+}
