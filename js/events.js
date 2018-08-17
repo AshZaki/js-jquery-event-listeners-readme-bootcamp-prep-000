@@ -15,7 +15,7 @@ function getIt(){
 
 
 function frameIt(){
-  $('tasty.img').on('load',function(){
+  $('img').on('load',function(){
     
   })
 }
