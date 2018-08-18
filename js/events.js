@@ -23,7 +23,7 @@ function frameIt(){
 
 function pressIt(){
   $('form input:first-child').on('keydown',function(e){
-    if (e.key =='G'){
+    if (e.which == 71){
       alert('G was pressed');
     }
   });
