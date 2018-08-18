@@ -23,8 +23,8 @@ function frameIt(){
 
 function pressIt(){
   $('input').on('keydown',function(key){
-    if (key.which =='G'){
-      alert('G was pressed');
+    if (key.which =='g'){
+      alert('g was pressed');
     }
   });
 }
